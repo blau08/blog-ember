@@ -1,0 +1,5 @@
+<ul id=indexPage>
+  {{#each model as |post|}}
+    {{post-tile post=post update="update" destroyPost="destroyPost"}}
+  {{/each}}
+</ul>

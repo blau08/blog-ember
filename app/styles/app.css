@@ -1,0 +1,34 @@
+.img-thumbnail {
+  width: 500px;
+}
+
+#individualPostColumn {
+  margin: auto;
+  width: 60%;
+}
+
+#individualPostHeader {
+  text-align: center;
+}
+
+.jumbotron-custom {
+  text-align: center;
+  padding: 30px !important;
+  margin-bottom: 0px;
+  background-color: #CCF5EB;
+}
+
+.navbar {
+  background-color: #E6FAF5;
+  border: none;
+}
+
+#logo-header {
+  width: 200px;
+}
+#indexPage {
+  text-align: center;
+}
+ul {
+  text-size: 20px;
+}

@@ -1,0 +1,10 @@
+{ "posts": [{
+  "title": "EPICODUS WEEK 8 DAY 3",
+  "date": "09/23/2015",
+  "author": "Brian Lau and Leah Klamkin",
+  "description": "Another Day At The Office",
+  "content": "Lorem Ipsum",
+  "image": "http://media.bizj.us/view/img/2266961/epicodus*1200xx2048-1152-0-192.jpg"
+  }]
+
+}
