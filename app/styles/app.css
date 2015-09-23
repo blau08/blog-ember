@@ -1,10 +1,19 @@
+html {
+  margin-bottom: 50px;
+}
+
+body {
+  font-family: 'Amaranth', sans-serif;
+}
+
+
 .img-thumbnail {
   width: 500px;
 }
 
 #individualPostColumn {
   margin: auto;
-  width: 60%;
+  width: 50%;
 }
 
 #individualPostHeader {
@@ -31,4 +40,8 @@
 }
 ul {
   text-size: 20px;
+}
+
+.amaranth {
+  font-family: 'Amaranth', sans-serif;
 }
