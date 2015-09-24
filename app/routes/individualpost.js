@@ -13,5 +13,18 @@ export default Ember.Route.extend({
       });
       this.transitionTo('individualpost', params.post);
     },
+    destroyPost(post) {
+      post.destroyRecord();
+      this.transitionTo('index');
+    },
+    update(post, params) {
+      Object.keys(params).forEach(function(key) {
+        if(params[key]!==undefined) {
+          post.set(key,params[key]);
+        }
+      });
+      post.save();
+      this.transitionTo('post', post);
+    },
   }
 });
