@@ -10,6 +10,7 @@ Router.map(function() {
   this.route('contact');
   this.route('newpost');
   this.route('individualpost', {path: 'individualpost/:post_id'});
+  this.route('search-results');
 });
 
 export default Router;
