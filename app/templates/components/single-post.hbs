@@ -2,13 +2,15 @@
 <div class="container">
   <div class="individualPostColumn">
     <div class="individualPostHeader">
-      <h2>{{post.title}}</h2>
-      <h4>{{post.date}}</h4>
-      <h4>By {{post.author}}</h4>
+      <h1>{{post.title}}</h1>
+      <h3>{{post.date}}</h3>
+      <h3>By {{post.author}}</h3>
       <span class="glyphicon glyphicon-trash" {{action 'delete' post}}></span>
       {{update-post post=post update="update"}}
       <hr>
-      <a href="{{post.image}}"><img src="{{post.image}}" width="500"></a>
+      <h4 class="indivPostDescription">{{post.description}}</h4>
+      <hr>
+      <a href="{{post.image}}"><img src="{{post.image}}" class="img-responsive" max-width="500"></a>
       <hr>
     </div>
   <p>{{post.content}}</p>
