@@ -1,5 +1,11 @@
 {{yield}}
 <div class="col-md-4">
-<h3>{{#link-to 'individualpost' post.id}}{{post.title}}{{/link-to}}</h3>
-    <img src="{{post.image}}" class="img-thumbnail"><br>
+  <div class="opacity-07">
+  {{#link-to 'individualpost' post.id}}
+    <h3 class="centerize">
+      {{post.title}}
+    </h3>
+    <img src="{{post.image}}" class="img-thumbnail">{{/link-to}}
+    <br>
+  </div>
 </div>

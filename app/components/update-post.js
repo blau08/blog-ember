@@ -20,6 +20,10 @@ export default Ember.Component.extend({
       };
       this.set('updatePostForm', false);
       this.sendAction('update', post, params);
+    },
+
+    hidePostForm() {
+      this.set('updatePostForm', false);
     }
   }
 });

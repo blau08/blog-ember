@@ -6,17 +6,25 @@ body {
   font-family: 'Amaranth', sans-serif;
 }
 
+#logo-header:hover {
+  opacity:0.7;
+}
 
 .img-thumbnail {
   width: 500px;
+  border: none;
 }
 
-#individualPostColumn {
+/*.img-thumbnail:hover {
+  opacity:0.7;
+}*/
+
+.individualPostColumn {
   margin: auto;
   width: 50%;
 }
 
-#individualPostHeader {
+.individualPostHeader {
   text-align: center;
 }
 
@@ -42,10 +50,21 @@ ul {
   text-size: 20px;
 }
 
-/*.amaranth {
-  font-family: 'Amaranth', sans-serif;
-}*/
 
 .centerize {
   text-align: center;
+}
+
+a {
+  color: black;
+}
+
+a:hover {
+  cursor: pointer;
+  color: gray;
+  text-decoration: none;
+}
+
+.opacity-07:hover {
+  opacity: 0.7;
 }
