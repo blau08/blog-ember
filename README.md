@@ -1,7 +1,6 @@
-# Blog
+# Mock Blog/News site with Ember.js
 
-This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+See this app live at: http://lkbl-blog.herokuapp.com/
 
 ## Prerequisites
 
