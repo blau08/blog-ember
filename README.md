@@ -1,4 +1,4 @@
-# Mock Blog/News site with Ember.js
+# Mock Blog/News Site with Ember.js
 
 See this app live at: http://lkbl-blog.herokuapp.com/
 
