@@ -1,6 +1,7 @@
 # Mock Blog/News Site with Ember.js
 
-See this app live at: http://lkbl-blog.herokuapp.com/
+See this app live at: http://lkbl-blog.herokuapp.com/.
+Copyright 2015 Leah Klamkin and Brian Lau
 
 ## Prerequisites
 
