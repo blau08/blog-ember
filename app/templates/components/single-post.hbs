@@ -10,5 +10,14 @@
       <hr>
     </div>
   <p>{{post.content}}</p>
+  <hr>
+    <h2 class="centerize">Comments</h2>
+    <hr>
+      {{#each post.comments as |comment|}}
+        <h4>{{comment.title}}</h4>
+          <p>{{comment.response}}</p>
+        <hr>
+      {{/each}}
+      {{new-comment post=post saveComment="saveComment"}}
   </div>
 </div>

@@ -1,5 +1,9 @@
 <ul id=indexPage>
-  {{#each model as |post|}}
-    {{post-tile post=post update="update" destroyPost="destroyPost"}}
+  {{#each model.posts as |post|}}
+    {{post-tile post=post saveComment="saveComment" update="update" destroyPost="destroyPost"}}
   {{/each}}
 </ul>
+
+
+
+<!-- {{new-comment saveComment="saveComment"}} -->

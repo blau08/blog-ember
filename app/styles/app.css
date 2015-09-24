@@ -42,6 +42,10 @@ ul {
   text-size: 20px;
 }
 
-.amaranth {
+/*.amaranth {
   font-family: 'Amaranth', sans-serif;
+}*/
+
+.centerize {
+  text-align: center;
 }
